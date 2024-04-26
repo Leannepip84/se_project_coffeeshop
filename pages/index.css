@@ -124,7 +124,6 @@
 }
 .recipes__subtitle {
   max-width: 438px;
-  gap: 80px;
   font-family: "Noto Serif";
   font-style: normal;
   font-weight: normal;
@@ -148,4 +147,8 @@
   font-size: 20px;
   line-height: 30px;
   color: #ffffff;
+}
+
+.recipes__iframe {
+  border: none;
 }
