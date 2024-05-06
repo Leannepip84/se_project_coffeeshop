@@ -17,6 +17,8 @@
   background-color: #0a2850;
   position: relative;
   overflow: hidden;
+  display: flex;
+  justify-content: space-between;
 }
 
 .about__title {
@@ -25,7 +27,6 @@
   margin-left: 80px;
   color: #ffffff;
   z-index: 1;
-  position: absolute;
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
@@ -42,7 +43,7 @@
   font-size: 20px;
   line-height: 30px;
   align-items: center;
-  text-align: right;
+  max-width: 660px;
 }
 
 .about__circle {
