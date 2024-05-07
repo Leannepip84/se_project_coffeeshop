@@ -11,7 +11,7 @@
 .form__label {
   margin-bottom: 32px;
   display: block;
-  font-family: Inter;
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -30,6 +30,13 @@
   width: 100%;
   margin-top: 8px;
   height: 60px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #838383;
+  border: 1px solid #838383;
 }
 
 .form__button {
@@ -38,13 +45,16 @@
   padding: 0;
   margin-bottom: 32px;
   height: 60px;
-  font-family: Inter;
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   color: #ffffff;
   line-height: 20px;
   background-color: #2f80ed;
+  border: none;
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
 }
 
 .form__button:hover {
