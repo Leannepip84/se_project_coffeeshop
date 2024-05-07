@@ -21,7 +21,7 @@
 }
 
 .footer__social-heading {
-  margin: 0 80px 0 auto;
+  margin: 0 0 auto;
   font-family: "Inter";
   font-style: normal;
   font-weight: bold;
@@ -44,6 +44,7 @@
   font-size: 16px;
   line-height: 20px;
   color: #fff;
+  margin-top: 16px;
 }
 
 .footer__social-link {
@@ -54,6 +55,7 @@
   line-height: 20px;
   color: #fff;
   transition: color 0.5s ease;
+  text-decoration: none;
 }
 
 .footer__social-link:hover {
@@ -73,4 +75,6 @@
   font-size: 16px;
   line-height: 20px;
   color: #fff;
+  padding: 60px;
+  margin: 0;
 }
