@@ -6,8 +6,7 @@
 .footer__content {
   display: flex;
   justify-content: space-between;
-  padding: 60px 80px;
-  align-items: center;
+  padding: 60px 80px 108px;
 }
 
 .footer__socials {
@@ -47,6 +46,10 @@
   margin-top: 16px;
 }
 
+.footer__list-item:last-of-type {
+  margin-top: 0;
+}
+
 .footer__social-link {
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
@@ -75,6 +78,6 @@
   font-size: 16px;
   line-height: 20px;
   color: #fff;
-  padding: 60px;
+  padding: 180px 60px;
   margin: 0;
 }
