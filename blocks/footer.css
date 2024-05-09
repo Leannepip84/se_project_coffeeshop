@@ -46,7 +46,7 @@
   margin-top: 16px;
 }
 
-.footer__list-item:last-of-type {
+.footer__list-item:first-of-type {
   margin-top: 0;
 }
 
@@ -78,6 +78,6 @@
   font-size: 16px;
   line-height: 20px;
   color: #fff;
-  padding: 180px 60px;
+  padding: 0px 80px 60px;
   margin: 0;
 }
